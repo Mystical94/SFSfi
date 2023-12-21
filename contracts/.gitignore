@@ -1,0 +1,16 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+broadcast
+
+# Hardhat files
+cache
+artifacts
+.gitconfig
+
+.DS_Store
+
+.env

@@ -1,0 +1,28 @@
+image: node:19
+
+cache:
+  paths:
+    - node_modules/
+    - artifacts/
+    - cache/
+
+stages:
+  - setup
+  - build
+  - test
+
+install_dependencies:
+  stage: setup
+  script:
+    - npm install
+
+contracts-compilation:
+  stage: build
+  script:
+    - npx hardhat compile --network hardhat
+
+contracts-test:
+  stage: test
+  script:
+    - npm run test
+

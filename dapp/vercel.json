@@ -1,0 +1,30 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer-when-downgrade"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://canto.gravitychain.io https://canto-testnet.plexnode.wtf; font-src 'self' data:;frame-ancestors 'none'"
+        }
+      ]
+    }
+  ]
+}
