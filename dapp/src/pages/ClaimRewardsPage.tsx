@@ -91,7 +91,7 @@ const ClaimRewardsPage: FC<Props> = ({ csrErc20TokenAddress }) => {
         align="center"
         style={{ marginBottom: "10px" }}
       >
-        Contract Secured Revenue from your ${erc20Info?.symbol} holding
+        Sequencer Fee Sharing from your ${erc20Info?.symbol} holding
       </Typography>
       <Grid container spacing={2}>
         <Grid item xs={12}>

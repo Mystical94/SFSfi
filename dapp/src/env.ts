@@ -2,19 +2,35 @@
 
 const mainnet = {
   CHAIN: {
-    ID: 7700,
-    NAME: "Canto",
-    RPC_URL: ["https://canto.gravitychain.io"],
-    EXPLORER_URL: ["https://tuber.build"],
+    ID: 919,
+    NAME: "Mode Testnet",
+    RPC_URL: ["https://sepolia.mode.network"],
+    EXPLORER_URL: ["https://sepolia.explorer.mode.network"],
   },
   CONTRACTS: {
-    CSRCANTO: "0x33544082114fF42974B2965e057e24AC52b75871",
+    CSRCANTO: "0x264D76222F0c631b3397F4554008CdE7DD601D7c",
     NOTE: "0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503",
-    WCANTO: "0x826551890Dc65655a0Aceca109aB11AbDbD7a07B",
+    WCANTO: "0x9717D1A562fd96F1b30feaDFd184808517455327",
     BASE_V1_ROUTER: "0xa252eEE9BDe830Ca4793F054B506587027825a8e",
     CSR_ERC20_FACTORY: "0x573e65f38c92a68ab7455795ad4acbd116c6e627",
   },
 } as const;
+
+// const mainnet = {
+//   CHAIN: {
+//     ID: 7700,
+//     NAME: "Canto",
+//     RPC_URL: ["https://canto.gravitychain.io"],
+//     EXPLORER_URL: ["https://tuber.build"],
+//   },
+//   CONTRACTS: {
+//     CSRCANTO: "0x33544082114fF42974B2965e057e24AC52b75871",
+//     NOTE: "0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503",
+//     WCANTO: "0x826551890Dc65655a0Aceca109aB11AbDbD7a07B",
+//     BASE_V1_ROUTER: "0xa252eEE9BDe830Ca4793F054B506587027825a8e",
+//     CSR_ERC20_FACTORY: "0x573e65f38c92a68ab7455795ad4acbd116c6e627",
+//   },
+// } as const;
 
 // testnet
 

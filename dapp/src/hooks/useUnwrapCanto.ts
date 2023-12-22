@@ -52,8 +52,8 @@ const useUnwrapCanto = (): {
       const tx = await contract.withdraw.populateTransaction(weiAmount);
       await sendTransaction(
         tx,
-        "Unwrapping $scrCANTO...",
-        "$scrCANTO unwrapped successfully!"
+        "Unwrapping $sfsCANTO...",
+        "$sfsCANTO unwrapped successfully!"
       );
       setLoading(false);
     } catch (error) {

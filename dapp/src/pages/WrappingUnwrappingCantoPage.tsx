@@ -32,7 +32,7 @@ const WrappingUnwrappingCantoPage: FC = () => {
       return;
     }
 
-    if (numValue <= 0) {
+    if (numValue <= 0.0001) {
       setAmountError("Amount must be greater than 0");
     } else if (numValue > parseFloat(maxAmount)) {
       setAmountError("Amount cannot be more than your balance");
