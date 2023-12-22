@@ -39,7 +39,7 @@ const ClaimRewards: FC<Props> = ({ csrErc20TokenAddress }) => {
         gutterBottom
         style={{ marginTop: "10px", marginBottom: "10px", lineHeight: 1.1 }}
       >
-        {rewards ? formatNumber(rewards) : 0} <br /> $CANTO
+        {rewards ? formatNumber(rewards) : 0} <br /> $ETH
       </Typography>
       {address ? (
         <Button

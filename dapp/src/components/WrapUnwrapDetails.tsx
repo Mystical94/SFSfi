@@ -52,17 +52,17 @@ const WrapUnwrapDetails: FC<Props> = ({
       )}
       {baseTokenBalance !== null && (
         <ItemLine
-          label={`$${symbol} balance:`}
+          label={`$ETH balance:`}
           value={formatNumber(baseTokenBalance)}
         />
       )}
       {csrTokenBalance !== null && (
         <ItemLine
-          label={`$csr${symbol} balance:`}
+          label={`$sfsETH balance:`}
           value={formatNumber(csrTokenBalance)}
         />
       )}
-      <ItemLine label="" value={`1 $${symbol} = 1 $csr${symbol}`} />
+      <ItemLine label="" value={`1 $ETH = 1 $sfsETH`} />
     </Box>
   );
 };

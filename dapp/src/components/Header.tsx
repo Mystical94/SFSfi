@@ -19,7 +19,7 @@ import HeaderItem from "./HeaderItem";
 import MobileDrawerMenu from "./MobileDrawerMenu";
 import KNOWN_TOKENS from "../data/knownTokens";
 import { PathId } from "../constants";
-import CsrCantoLogo from "../static/csrcanto.png";
+import SfsEthLogo from "../static/sfs_eth-logo.svg";
 import HeaderTokenDropdownItem from "./HeaderTokenDropdownItem";
 import ThemeToggleButton from "./ThemeToggleButton";
 import HeaderCustomContract from "./HeaderCustomContract";
@@ -200,8 +200,8 @@ const Header: FC = () => {
             >
               <MenuItem value={0}>
                 <HeaderTokenDropdownItem
-                  text="$csrCANTO"
-                  imgSrc={CsrCantoLogo}
+                  text="$sfsETH"
+                  imgSrc={SfsEthLogo}
                 />
               </MenuItem>
               {/* {KNOWN_TOKENS.map(({ csrErc20Address, symbol, erc20Icon }, i) => (

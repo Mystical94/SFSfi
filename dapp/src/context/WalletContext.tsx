@@ -128,8 +128,8 @@ export const WalletProvider: FC<{ children: ReactElement }> = ({
                   chainId: `0x${env.CHAIN.ID.toString(16)}`,
                   chainName: env.CHAIN.NAME,
                   nativeCurrency: {
-                    name: "Canto",
-                    symbol: "CANTO",
+                    name: "Mode Testnet",
+                    symbol: "ETH",
                     decimals: 18,
                   },
                   rpcUrls: env.CHAIN.RPC_URL,
@@ -138,10 +138,10 @@ export const WalletProvider: FC<{ children: ReactElement }> = ({
               ],
             });
           } catch (addError) {
-            console.error("Failed to add Canto Testnet:", addError);
+            console.error("Failed to add Mode Testnet:", addError);
           }
         } else {
-          console.error("Failed to switch to Canto Testnet:", switchError);
+          console.error("Failed to switch to Mode Testnet:", switchError);
         }
       }
     }
@@ -193,7 +193,7 @@ export const WalletProvider: FC<{ children: ReactElement }> = ({
         msg: inProgressMsg,
         severity: "info",
         link: explorerLink,
-        linkText: "View on Tuber",
+        linkText: "View on Explorer",
         duration: null,
       });
       await tx.wait();
@@ -201,7 +201,7 @@ export const WalletProvider: FC<{ children: ReactElement }> = ({
         msg: successMsg,
         severity: "success",
         link: explorerLink,
-        linkText: "View on Tuber",
+        linkText: "View on Explorer",
       });
       return tx.hash;
     },

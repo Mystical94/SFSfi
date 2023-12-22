@@ -12,8 +12,8 @@ import {
   Paper,
   InputAdornment,
 } from "@mui/material";
-import CsrCantoLogo from "../static/csrcanto.png";
-import CantoLogo from "../static/canto_logo.svg";
+import SfsEthLogo from "../static/sfs_eth-logo.svg";
+import EthLogo from "../static/eth-logo.svg";
 import WalletConnection from "./WalletConnection";
 import WrapUnwrapDetails from "./WrapUnwrapDetails";
 import { useWalletContext } from "../context/WalletContext";
@@ -74,7 +74,7 @@ const WrappingUnwrappingPageView: FC<WrappingUnwrappingPageViewProps> = ({
 
   const logoImg = useMemo(() => {
     if (symbol === "CANTO") {
-      return mode === "wrap" ? CantoLogo : CsrCantoLogo;
+      return mode === "wrap" ? EthLogo : SfsEthLogo;
     }
 
     const knownLogo = KNOWN_TOKENS.find(
@@ -98,7 +98,7 @@ const WrappingUnwrappingPageView: FC<WrappingUnwrappingPageViewProps> = ({
           disabled={loading || isCorrectNetwork === false || approveLoading}
           fullWidth
         >
-          Approve CSR contract
+          Approve SFS contract
         </Button>
       );
     }
