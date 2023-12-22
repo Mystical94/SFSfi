@@ -27,7 +27,7 @@ const useWrapCanto = (): {
         const estimatedGas = await contract.deposit.estimateGas({ value: 100 });
         setGasEstimate(estimatedGas.toString());
       } catch (error) {
-        // this can happen when the wallet has no CANTO
+        // this can happen when the wallet has no ETH
       }
     };
 
@@ -52,12 +52,12 @@ const useWrapCanto = (): {
       });
       await sendTransaction(
         tx,
-        "Wrapping $CANTO...",
-        "$CANTO wrapped successfully!"
+        "Wrapping $ETH...",
+        "$ETH wrapped successfully!"
       );
       setLoading(false);
     } catch (error) {
-      setStatus({ msg: "Error wrapping Canto:", severity: "error" });
+      setStatus({ msg: "", severity: "error" });
       setLoading(false);
     }
   };
