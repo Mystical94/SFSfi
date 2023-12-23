@@ -43,9 +43,8 @@ const TermsAndConditionsDialog: FC = () => {
             children={`
 ## Disclaimer
 
-1. csrCANTO has NOT been audited yet, please use at your own risk.
-2. the purpose csrCANTO is to be a public good on the canto blockchain
-3. we do not collect any form of data from users
+1. The purpose SFSfi is to be a public good on the Mode blockchain
+2. We do not collect any form of data from users
           `}
           />
           <Divider />
