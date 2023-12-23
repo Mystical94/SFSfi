@@ -51,6 +51,11 @@ The inspiration behind SFSfi likely stems from several key trends and challenges
 ### 🌟 Conclusion
 - SFSfi facilitates the redirection of transaction fees through the SFS mechanism, creating a sustainable revenue stream for users and the protocol itself. Through the introduction of sfsETH, users can earn risk-free yields on their ETH holdings, and the protocol aims to enhance liquidity and demand within the DeFi ecosystem on the Mode Blockchain.
 
+#### Credits
+- The project is a fork of csrCanto and some parts of the code has been used.
+- The deployment on the Mode Blockchain and its integration with the Mode Blockchain is our original work.
+- The UI has also been modified according to the Mode Blockchain
+
 ### 💪 Deployed Contract Addresses (Mode Sepolia Testnet)
 - sfsETH Contract: [0x264D76222F0c631b3397F4554008CdE7DD601D7c](https://sepolia.explorer.mode.network/address/0x264D76222F0c631b3397F4554008CdE7DD601D7c)
 
@@ -64,7 +69,7 @@ The inspiration behind SFSfi likely stems from several key trends and challenges
 #### Pre-requisites
 
 - Node version should be >=16.0.0
-- npm nersion should be >=9.0.0
+- npm version should be >=9.0.0
 
 Clone the repository
 
