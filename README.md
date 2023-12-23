@@ -41,12 +41,19 @@ The inspiration behind SFSfi likely stems from several key trends and challenges
 
 ### ⚔ Challenges we ran into
 - User Experience (UI/UX): Creating an intuitive and user-friendly interface is crucial for mass adoption. Designing a seamless user experience, especially for complex DeFi protocols, was challenging.
+- It was our first time working with Sequencer Fee Sharing mechanism but it was quite innovative and we learned a lot.
 
-### ☄️ Value Propositions:
+### ☄️ Value Propositions
 - Hodling with Yield: Users can continue to hold ETH while earning a risk-free yield from the redirected transaction fees.
 - Treasury Growth: The protocol's treasury benefits from the redirected fees, creating a sustainable source of yield for the entire ecosystem.
 - Liquidity and Demand: sfsETH is positioned as the most liquid form of ERC-20 ETH, making it an attractive asset within the decentralized finance (DeFi) space.
 - Unique DeFi Product: Due to its liquidity and demand, sfsETH becomes a valuable asset for integration within various DeFi products.
+
+### ☄️ What's next?
+- Currently, SFSfi only supports native coin transfers(ETH) wrapping. Next step is to make every ERC-20 token wrapping every ERC-20 into sfsERC-20Token.
+- Deploying SFSfi on Mode Mainnet as soon as possible.
+- Auditing the smart contracts.
+- Future UX improvements (although the website is mobile-friendly). The possibilities are endless!
 
 ### 🌟 Conclusion
 - SFSfi facilitates the redirection of transaction fees through the SFS mechanism, creating a sustainable revenue stream for users and the protocol itself. Through the introduction of sfsETH, users can earn risk-free yields on their ETH holdings, and the protocol aims to enhance liquidity and demand within the DeFi ecosystem on the Mode Blockchain.
@@ -63,6 +70,7 @@ The inspiration behind SFSfi likely stems from several key trends and challenges
 - Go Fork Yourself
 - SFS Killer
 - Gigabrainz
+- Best Stablecoin
 
 ### 💻 Deploying SFSfi on the local device
 
