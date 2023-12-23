@@ -50,7 +50,7 @@ The inspiration behind SFSfi likely stems from several key trends and challenges
 - Unique DeFi Product: Due to its liquidity and demand, sfsETH becomes a valuable asset for integration within various DeFi products.
 
 ### ☄️ What's next?
-- Currently, SFSfi only supports native coin transfers(ETH) wrapping. Next step is to make every ERC-20 token wrapping every ERC-20 into sfsERC-20Token.
+- Currently, SFSfi only supports native coin (ETH) wrapping. Next step is to make wrapping up of every ERC-20 into sfsERC-20Token.
 - Deploying SFSfi on Mode Mainnet as soon as possible.
 - Auditing the smart contracts.
 - Future UX improvements (although the website is mobile-friendly). The possibilities are endless!
