@@ -3,7 +3,7 @@
 #### Pre-requisites
 
 - Node version should be >=16.0.0
-- npm nersion should be >=9.0.0
+- npm version should be >=9.0.0
 
 Clone the repository
 
