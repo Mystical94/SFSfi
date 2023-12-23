@@ -1,12 +1,12 @@
 {
-  "name": "csr-canto",
+  "name": "sfsfi",
   "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest ./src",
     "dev": "webpack serve --port 3000",
-    "build": "NODE_ENV=production webpack",
+    "build": "set NODE_ENV=production&& webpack",
     "lint": "eslint ./src",
     "serve": "npx serve dist",
     "format": "eslint ./src --fix",
